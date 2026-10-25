@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1296pt" height="2160pt" viewBox="0 0 1296 2160">
+<defs>
+<filter id="filter-remove-color" x="0%" y="0%" width="100%" height="100%">
+<feColorMatrix color-interpolation-filters="sRGB" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+</filter>
+<mask id="mask-0">
+<g filter="url(#filter-remove-color)">
+<rect x="-129.6" y="-216" width="1555.2" height="2592" fill="rgb(0%, 0%, 0%)" fill-opacity="0.399994"/>
+</g>
+</mask>
+<clipPath id="clip-0">
+<path clip-rule="nonzero" d="M 0 0 L 1296 0 L 1296 22 L 0 22 Z M 0 0 "/>
+</clipPath>
+<clipPath id="clip-1">
+<rect x="0" y="0" width="1296" height="22"/>
+</clipPath>
+<g id="source-5" clip-path="url(#clip-1)">
+<g clip-path="url(#clip-0)">
+<rect x="-285.12" y="-475.2" width="1866.24" height="3110.4" fill="rgb(100%, 100%, 100%)" fill-opacity="1"/>
+</g>
+</g>
+</defs>
+<rect x="-129.6" y="-216" width="1555.2" height="2592" fill="rgb(90.065002%, 89.962769%, 13.371277%)" fill-opacity="1"/>
+<path fill-rule="nonzero" fill="rgb(94.116211%, 44.598389%, 8.79364%)" fill-opacity="1" d="M 82 2021 L 1209 2021 L 1209 0 L 82 0 Z M 82 2021 "/>
+<g mask="url(#mask-0)">
+<use xlink:href="#source-5"/>
+</g>
+<path fill-rule="nonzero" fill="rgb(100%, 100%, 100%)" fill-opacity="1" d="M 1125.339844 1040.476562 C 1125.339844 775.691406 910.695312 561.039062 645.902344 561.039062 C 381.117188 561.039062 166.464844 775.691406 166.464844 1040.476562 C 166.464844 1305.265625 381.117188 1519.917969 645.902344 1519.917969 C 910.695312 1519.917969 1125.339844 1305.265625 1125.339844 1040.476562 "/>
+<path fill-rule="nonzero" fill="rgb(75.405884%, 36.335754%, 11.64856%)" fill-opacity="1" d="M 1209 1039 L 82 1039 L 82 2021 L 1209 2021 Z M 1209 1039 "/>
+</svg>

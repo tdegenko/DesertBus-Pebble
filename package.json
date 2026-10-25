@@ -1,0 +1,60 @@
+{
+  "name": "desertbus",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "desertbus",
+    "uuid": "dc066040-6ffd-4c87-93aa-b3a5322e5cdb",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite",
+      "emery",
+      "flint",
+      "gabbro"
+    ],
+    "watchapp": {
+      "watchface": true 
+    },
+    "resources": {
+      "media": [
+        {
+            "type": "bitmap",
+            "name": "TEST",
+            "file": "test.png"
+        },
+        {
+            "type": "bitmap",
+            "name": "DAWN_GUARD",
+            "file": "DawnGuard.png"
+        },
+        {
+            "type": "bitmap",
+            "name": "ALPHA_FLIGHT",
+            "file": "AlphaFlight.png"
+        },
+        {
+            "type": "bitmap",
+            "name": "NIGHT_WATCH",
+            "file": "NightWatch.png"
+        },
+        {
+            "type": "bitmap",
+            "name": "ZETA_SHIFT",
+            "file": "ZetaShift.png"
+        },
+        {
+            "type": "bitmap",
+            "name": "OMEGA",
+            "file": "Omega.png"
+        }
+      ]
+    }
+  }
+}

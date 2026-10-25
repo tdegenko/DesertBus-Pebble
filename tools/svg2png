@@ -1,0 +1,7 @@
+#!/bin/bash
+FILE_NAME=$(basename -s '-plain.svg' "$1")
+RES="200x228"
+#DITHER="None"
+#DITHER="FloydSteinberg"
+DITHER="Riemersma"
+convert "$1" -dither "${DITHER}" -remap res-in/pebble_colors_64.gif -resize "${RES}^" -gravity center -extent "${RES}" "resources/${FILE_NAME}.png"

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="260"
+   height="297"
+   viewBox="0 0 195 222.75"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="ZetaShift-plain.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.87692308"
+     inkscape:cx="129.42982"
+     inkscape:cy="202.41228"
+     inkscape:window-width="907"
+     inkscape:window-height="991"
+     inkscape:window-x="23"
+     inkscape:window-y="15"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6" />
+  <defs
+     id="defs3">
+    <filter
+       id="filter-remove-color"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         color-interpolation-filters="sRGB"
+         values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"
+         id="feColorMatrix1" />
+    </filter>
+    <mask
+       id="mask-0">
+      <g
+         filter="url(#filter-remove-color)"
+         id="g1">
+        <rect
+           x="-129.60001"
+           y="-230.39999"
+           width="1555.2"
+           height="2764.8"
+           fill="#000000"
+           fill-opacity="0.399994"
+           id="rect1" />
+      </g>
+    </mask>
+    <clipPath
+       id="clip-0">
+      <path
+         clip-rule="nonzero"
+         d="M 0,0 H 1296 V 21 H 0 Z m 0,0"
+         id="path1" />
+    </clipPath>
+    <clipPath
+       id="clip-1">
+      <rect
+         x="0"
+         y="0"
+         width="1296"
+         height="21"
+         id="rect2" />
+    </clipPath>
+    <g
+       id="source-5"
+       clip-path="url(#clip-1)">
+      <g
+         clip-path="url(#clip-0)"
+         id="g3">
+        <rect
+           x="-285.12"
+           y="-506.88"
+           width="1866.24"
+           height="3317.76"
+           fill="#ffffff"
+           fill-opacity="1"
+           id="rect3" />
+      </g>
+    </g>
+  </defs>
+  <path
+     fill-rule="nonzero"
+     fill="#572e8a"
+     fill-opacity="1"
+     d="m 0,0 v 255.15282 l 97.5,86.4581 97.5,-86.2759 V 0 Z m 0,0"
+     id="path3"
+     style="stroke-width:0.150463" />
+  <path
+     fill-rule="nonzero"
+     fill="#8f50ae"
+     fill-opacity="1"
+     d="m 177.24537,0 v 271.04552 l 10.08102,-8.9202 V 0 Z m 0,0"
+     id="path4"
+     style="stroke-width:0.150463" />
+  <path
+     fill-rule="nonzero"
+     fill="#8f50ae"
+     fill-opacity="1"
+     d="m 7.52315,0 v 261.82382 l 10.08102,8.9396 V 0 Z m 0,0"
+     id="path5"
+     style="stroke-width:0.150463" />
+  <path
+     fill-rule="nonzero"
+     fill="#ffffff"
+     fill-opacity="1"
+     d="m 116.06689,183.94862 c 17.79284,0 23.21597,-3.2191 26.77477,-8.3031 1.52461,-2.2029 3.0504,-6.7785 3.38894,-9.1506 0.33913,-1.6945 0.67768,-2.7113 1.52521,-2.7113 1.0168,0 1.35534,0.6777 1.35534,3.8979 0,5.2533 -2.37273,15.2503 -3.38953,19.4868 -1.0168,4.0678 -1.18549,4.4069 -5.08283,4.4069 -28.29938,0 -56.76862,-0.8481 -86.42334,-0.8481 -2.0336,0 -3.04981,-0.1699 -3.04981,-1.3554 0,-0.8481 0.33854,-1.6944 2.37214,-4.7454 25.24898,-38.1277 50.83767,-76.2554 74.391,-114.5523 H 91.15646 c -8.64163,0 -18.97832,0.5078 -24.40145,3.3889 -6.09963,3.2197 -9.15062,9.4898 -9.65843,13.3877 -0.33913,2.542 -1.0168,3.0498 -1.86433,3.0498 -0.84753,0 -1.0168,-0.8469 -1.0168,-2.2034 0,-2.033 2.542,-17.4537 3.38894,-22.5372 0.33854,-2.3721 0.67767,-3.2196 1.69389,-3.2196 1.52579,0 2.54259,1.0162 7.11819,1.186 16.09836,0.6783 24.23218,0.5079 29.48545,0.5079 h 47.27828 c 2.54142,0 3.38953,0.3391 3.38953,1.3559 0,0.6777 0,1.0162 -0.67767,2.0342 -24.57189,38.9746 -50.16,77.9498 -75.91679,116.9244 z m 0,0"
+     id="path6"
+     style="stroke-width:0.150463" />
+</svg>

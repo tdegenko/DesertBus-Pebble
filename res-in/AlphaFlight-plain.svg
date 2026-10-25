@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="260"
+   height="260"
+   viewBox="0 0 195 195"
+   version="1.1"
+   id="svg8"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3">
+    <filter
+       id="filter-remove-color"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         color-interpolation-filters="sRGB"
+         values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"
+         id="feColorMatrix1" />
+    </filter>
+    <clipPath
+       id="clip-0">
+      <path
+         clip-rule="nonzero"
+         d="M 0,0 H 1296 V 22 H 0 Z m 0,0"
+         id="path1" />
+    </clipPath>
+    <clipPath
+       id="clip-1">
+      <rect
+         x="0"
+         y="0"
+         width="1296"
+         height="22"
+         id="rect2" />
+    </clipPath>
+    <g
+       id="source-5"
+       clip-path="url(#clip-1)">
+      <g
+         clip-path="url(#clip-0)"
+         id="g3">
+        <rect
+           x="-285.12"
+           y="-506.88"
+           width="1866.24"
+           height="3317.76"
+           fill="#ffffff"
+           fill-opacity="1"
+           id="rect3" />
+      </g>
+    </g>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask8">
+      <g
+         id="g10"
+         transform="scale(34.559993)">
+        <g
+           filter="url(#filter-remove-color)"
+           id="g9"
+           transform="scale(0.02893519)">
+          <rect
+             x="-129.60001"
+             y="-230.39999"
+             width="1555.2"
+             height="2764.8"
+             fill="#000000"
+             fill-opacity="0.399994"
+             id="rect8" />
+        </g>
+      </g>
+    </mask>
+  </defs>
+  <path
+     fill-rule="nonzero"
+     fill="#be1f26"
+     fill-opacity="1"
+     d="M 0,0 V 342.25622 L 195,243.38149 V 0 Z m 0,0"
+     id="path3"
+     style="stroke-width:0.150463" />
+  <path
+     fill-rule="nonzero"
+     fill="#721418"
+     fill-opacity="1"
+     d="m 188.37963,246.92148 -47.24537,23.95594 V 0 h 47.24537 z m 0,0"
+     id="path4"
+     style="stroke-width:0.150463" />
+  <path
+     fill-rule="evenodd"
+     fill="#ffffff"
+     fill-opacity="1"
+     d="m 179.15085,67.060636 c 0.69941,0.01863 0.55835,0.881625 0.71939,1.441743 -17.35261,43.847021 -49.47293,65.015871 -111.025793,61.280161 -6.500473,-0.39438 -15.564688,-1.15669 -24.511947,-0.72176 11.775491,-15.88971 36.265689,-15.83093 56.23436,-18.02322 29.22273,-3.20792 45.34048,-14.707762 57.67609,-35.326477 7.4591,-2.393889 13.93311,-5.772841 20.9079,-8.650447"
+     id="path5"
+     style="stroke-width:0.150463" />
+  <path
+     fill-rule="evenodd"
+     fill="#ffffff"
+     fill-opacity="1"
+     d="m 68.12387,148.52693 c -5.87158,11.67263 -23.721425,11.36467 -40.374032,12.25508 0.186316,-5.34025 3.266691,-7.78704 4.327574,-12.25508 12.323269,0.86046 25.920766,0.26446 36.046458,0"
+     id="path6"
+     style="stroke-width:0.150463" />
+  <path
+     fill-rule="evenodd"
+     fill="#ffffff"
+     fill-opacity="1"
+     d="M 167.61516,46.152753 C 157.27847,79.137645 136.67855,101.30154 94.798721,105.27 72.496697,107.38295 57.083065,109.28548 44.3325,121.1315 32.628128,132.00422 27.532959,144.8447 19.821144,162.94492 10.915618,68.717495 122.59734,88.860722 167.61516,46.152753"
+     id="path7"
+     style="stroke-width:0.150463" />
+  <path
+     fill-rule="evenodd"
+     fill="#ffffff"
+     fill-opacity="1"
+     d="m 126.52113,127.61904 c -16.28174,16.84186 -56.022178,19.64189 -91.560237,17.30324 0.786403,-5.22271 3.521185,-8.49293 5.76755,-12.25626 29.502497,-0.77759 63.249697,2.6907 85.792687,-5.04698"
+     id="path8"
+     style="stroke-width:0.150463" />
+</svg>
