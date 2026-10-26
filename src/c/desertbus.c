@@ -7,6 +7,9 @@ static BitmapLayer *s_bitmap_layer;
 
 static int shift;
 
+
+static void update_time(struct tm *tick_time);
+
 static void load_shift_bg(){
   int hour_offset = -7;
   time_t temp = time(NULL);
@@ -58,7 +61,8 @@ static void main_window_load(Window *window) {
   // Improve the layout to be more like a watchface
   text_layer_set_background_color(s_time_layer, GColorClear);
   text_layer_set_text_color(s_time_layer, GColorWhite);
-  text_layer_set_text(s_time_layer, "00:00");
+
+  update_time(NULL);
   text_layer_set_font(s_time_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
   text_layer_set_text_alignment(s_time_layer, GTextAlignmentCenter);
 
@@ -76,9 +80,11 @@ static void main_window_unload(Window *window) {
 }
 
 static void update_time(struct tm *tick_time) {
-  // Get a tm structure
-  //time_t temp = time(NULL);
-  //struct tm *tick_time = localtime(&temp);
+  if(tick_time==NULL){
+    // Get a tm structure
+    time_t temp = time(NULL);
+    tick_time = localtime(&temp);
+  }
 
   // Write the current hours and minutes into a buffer
   static char s_buffer[8];
