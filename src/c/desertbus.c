@@ -12,7 +12,11 @@ static void load_shift_bg(){
   time_t temp = time(NULL);
   struct tm *tick_time = gmtime(&temp);
   //int now_shift = ((tick_time->tm_hour + hour_offset) % 24)/6;
-  int now_shift = ((tick_time->tm_hour + hour_offset) % 24)/6;
+  int now_shift = tick_time->tm_hour + hour_offset; 
+  if (now_shift < 0){
+    now_shift +=24;
+  }
+  now_shift = (now_shift % 24)/6;
   APP_LOG(APP_LOG_LEVEL_DEBUG, "UTC Hour %d Buss Hour %d", tick_time->tm_hour, now_shift);
   //int now_shift = tick_time->tm_sec % 5;
   if (shift != now_shift){
