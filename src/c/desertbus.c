@@ -20,21 +20,21 @@ static void load_shift_bg(){
     if (shift != now_shift){
         gbitmap_destroy(s_bitmap);
         switch(now_shift){
-                case 0:
-                        s_bitmap = gbitmap_create_with_resource(RESOURCE_ID_ZETA_SHIFT);
-                        break;
-                case 1:
-                        s_bitmap = gbitmap_create_with_resource(RESOURCE_ID_DAWN_GUARD);
-                        break;
-                case 2:
-                        s_bitmap = gbitmap_create_with_resource(RESOURCE_ID_ALPHA_FLIGHT);
-                        break;
-                case 3:
-                        s_bitmap = gbitmap_create_with_resource(RESOURCE_ID_NIGHT_WATCH);
-                        break;
-                case 4:
-                        s_bitmap = gbitmap_create_with_resource(RESOURCE_ID_OMEGA);
-                        break;
+            case 0:
+                s_bitmap = gbitmap_create_with_resource(RESOURCE_ID_ZETA_SHIFT);
+                break;
+            case 1:
+                s_bitmap = gbitmap_create_with_resource(RESOURCE_ID_DAWN_GUARD);
+                break;
+            case 2:
+                 s_bitmap = gbitmap_create_with_resource(RESOURCE_ID_ALPHA_FLIGHT);
+                 break;
+            case 3:
+                 s_bitmap = gbitmap_create_with_resource(RESOURCE_ID_NIGHT_WATCH);
+                 break;
+            case 4:
+                 s_bitmap = gbitmap_create_with_resource(RESOURCE_ID_OMEGA);
+                 break;
         }
         shift = now_shift;
     }
@@ -55,8 +55,7 @@ static void main_window_load(Window *window) {
     layer_add_child(window_get_root_layer(window), bitmap_layer_get_layer(s_bitmap_layer));
 
 
-    s_time_layer = text_layer_create(
-            GRect(0, PBL_IF_ROUND_ELSE(8, 5), bounds.size.w, 50));
+    s_time_layer = text_layer_create(GRect(0, PBL_IF_ROUND_ELSE(8, 5), bounds.size.w, 50));
 
     // Improve the layout to be more like a watchface
     text_layer_set_background_color(s_time_layer, GColorClear);
